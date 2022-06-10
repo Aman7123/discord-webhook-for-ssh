@@ -13,4 +13,12 @@ In this repo you will find one single bash script. This bash script is designed 
 
 ----
 ## How-To Install
+### Manually creating and pasting code
 Installation is ez, simply place the discord-webhook.sh file into `/etc/profile.d` for this notification to occur for logins
+
+### Using WGET
+```bash
+sudo wget \
+https://raw.githubusercontent.com/Aman7123/discord-webhook-for-ssh/main/discord-webhook.sh \
+-P /etc/profile.d/
+```
